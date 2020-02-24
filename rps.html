@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 5 Notes</title>
+</head>
+<body>
+	<h1>Week 5 notes</h1>
+	<input type="text" name="username" placeholder="Enter your name" id="name_input"> 
+	<p id="message"></p>
+	<button onclick="sayHello()">Click me</button>
+
+
+<script type="text/javascript">
+	function sayHello(){
+		// Get the value of input with id name_input
+		var name = document.getElementById ('name_input').value;
+		//alert("Hello!"+name);
+		// get element in the <p> value
+		document.getElementById("message").innerHTML = "Hello "+name;
+	}
+	
+
+
+
+
+</script>
+</body>
+</html>
